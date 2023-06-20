@@ -11,9 +11,9 @@
      2. Analyse relationship between GDP per capita and electricity consumption per capita.
         - user able to investigate this phenomenon on interactive Tableau dashbaord.
 
-# Link for Power BI Dashboard
-    
+# Link for Power BI and Tableau Dashboard
     - https://app.powerbi.com/view?r=eyJrIjoiYzg0YmM2YjktNzAyNy00NzZhLWIwYmYtNzllOTIzYTA5ZTE4IiwidCI6IjdhOTVhZDY1LTU1ZWUtNDFlMy1iYTQ2LWFjYmRmNjA1ZWUzZCJ9
+    - https://public.tableau.com/app/profile/mohsen.farrokhrouz/viz/Electricity_Consumption_16852876034700/Dashboard1
     
 # Datasets used:
     - Electricity Production and Consumption (by generation-type)
