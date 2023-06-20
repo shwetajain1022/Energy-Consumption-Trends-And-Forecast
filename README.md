@@ -1,13 +1,6 @@
-# Project-4
+# Project : Electricity Production Trends and Forecast (RENEWABLES & NON-RENEWABLES)
 
-# GENERATING ELECTRICITY: RENEWABLES & NON-RENEWABLES
-
-# Group Members: Shweta Jain, Mohsen Farrokhrouz, Oliver King
-
-# Research Questions:
-    1. What proportion of electricity generation will renewable sources account for by 2025?
-    2. Does wealth (GDP per capita) have a significant influence on electricity consumption?
-    3. What is the outlook for solar-based electricity generation in Australia (to 2025)? 
+# Group Members: Shweta Jain, Mohsen Farrokhrouz
 
 # Approach to Answering Research Questions:
      - Provide initial overview of electricity production and consumption, by generation type, for a range of countries/regions/continents.
@@ -60,7 +53,7 @@
 
 # Navigating the Repository:
 
- - Repository URL: https://github.com/shwetajain1022/Project-4.git
+ - Repository URL: https://github.com/shwetajain1022/Energy-Consumption-Trends-And-Forecast.git
 
 # - Files in home directory:
     1. '.gitignore'
@@ -72,26 +65,28 @@
     4. 'README.md'
         - This file, outlining contents of repository and project details.
 # - Folders/Directories:
-    1. 'AI Modelling':
-        - includes 4 x notebooks to be run in Google Colab.
+#    1. 'AI Modelling':
+        - includes 7 x notebooks to be run in Google Colab.
         - each notebook runs an ARIMA-family time-series model on a different dataset, including:
             a. non-renewable electricity production: global
             b. renewable electricity production: global
             c. solar electricity production: australia
             d. renewable and non-renewable production: australia
+            e. non-renewable electricity production: australia
+            f. renewable electricity production: australia
         - Instructions for running ML models can be found above, under "Instructions for Running ML Models in Google Colab" sub-heading.
-#    2. 'Database Models':
+#    2. 'Dashboard Reporting':
+        - 'electricityconsumption.pbix' : interactive Power BI dashboard
+        - 'Electricity_Consumption.twbx': interactive tableau dashboard   
+#    3. 'Database Models':
         - 'electricity_db.sql': script used to create tables for SQL database for storage of data.
         - 'QuickDBD-EnergyConsumption.png': Entity relationship diagram used to develop SQL database format.
-#    3. 'FinalModelCSV':
+#    4. 'FinalModelCSV':
         - includes 5 x csv files that are the output of the data-cleansing and transformation process undertaken in 'population_gdp.ipynb'.
         - these 5 csv's were then imported into the database 'electricity_db.sql'.
-#    4. 'Presentation':
-        - 'electricityconsumption.pbix' : interactive Power BI dashboard
-        - 'Electricity_Consumption.twbx': interactive tableau dashboard
-        - 'Proj4_presentation.pptx': powerpoint presentation to be used on presentation night (01/06/2023)
-#    5. 'Resources':
+#    5. 'Presentation':
+        - 'Project_presentation.pptx': powerpoint presentation to be used on presentation night
+#    6. 'Resources':
         - includes 6 x csv files that were original data sources for the project and 1 x csv used as a template for the desired layout of the transformed data.
         - 'Resource Documentation': includes information relevant to any of the projects data sources.
-#    6. 'zzzArchived':
-        - includes a range of files and notebooks in which work was undertaken, but were not useful in the final presented project.
+ 
